@@ -1,0 +1,23 @@
+[
+  {
+    "name" : "Hyatt Regency Coconut Point",
+    "location" : "Bonita Springs, FL",
+    "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "type" : "interior",
+    "thumbnail_url" : "/img/500x500.jpg"
+  },
+  {
+    "name" : "Carlton Dunes",
+    "location" : "Amelia Island, Florida",
+    "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "type" : "exterior",
+    "thumbnail_url" : "/img/500x500.jpg"
+  },
+  {
+    "name" : "Ritz Carlton Amelia Island",
+    "location" : "Amelia Island, Florida",
+    "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "type" : "special",
+    "thumbnail_url" : "/img/500x500.jpg"
+  }
+]

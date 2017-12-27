@@ -1,0 +1,32 @@
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-sm-10 col-sm-offset-1 col-md-offset-2">
+        {% for item in site.data.locations %}
+        <div class="horizontal-tile">
+          <div class="tile-left">
+            <a href="#">
+              <div class="background-image-holder">
+                <img alt="image" class="background-image" src="https://maps.googleapis.com/maps/api/staticmap?center={{item.address1 | cgi_escape}}+{{item.city | cgi_escape}},+{{item.state | cgi_escape}}+{{item.zip | cgi_escape}}&zoom=13&scale=2&size=600x300&maptype=roadmap&format=png&visual_refresh=true&markers=size:mid%7Ccolor:0xff0000%7Clabel:%7C9556+{{item.address1 | cgi_escape}}+{{item.city | cgi_escape}},+{{item.state | cgi_escape}}+{{item.zip | cgi_escape}}">
+              </div>
+            </a>
+          </div>
+          <div class="tile-right bg-secondary">
+            <div class="description">
+              <h4 class="mb8">{{item.name}}</h4>
+              <h6 class="uppercase">
+                {{item.phone}}
+              </h6>
+              <p>
+                {{item.address1}} {{item.address2}}<br/>
+                {{item.city}}, {{item.state}} {{item.zip}}<br/>
+              </p>
+            </div>
+          </div>
+        </div>
+        {% endfor %}
+
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,6 @@
+_tmp/
+config.js
+gitsetup.sh
+_site
+.sass-cache
+.jekyll-metadata

@@ -1,0 +1,23 @@
+<section class="pt180 pb180 pt-xs-80 pb-xs-80">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3 text-center">
+                    <h3 class="mb48 mb-xs-32">Some amazing companies we've had the pleasure to work with.</h3>
+                    <div class="text-slider slider-paging-controls text-center relative">
+                        <ul class="slides">
+                          {% for item in site.data.testimonials %}
+                          <li>
+                              <h5>{{item.quote}}</h5>
+                              <div class="quote-author">
+                                  <img alt="Author" class="image-xs mb16" src="{{item.image_url}}">
+                                  <h6 class="uppercase mb0">{{item.name}}</h6>
+                                  <span>Vault</span>
+                              </div>
+                          </li>
+                          {% endfor %}
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>

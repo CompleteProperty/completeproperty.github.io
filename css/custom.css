@@ -1,0 +1,24 @@
+.nav-bar {
+  height: 85px;
+  max-height: 85px;
+  line-height: 83px;
+  border-bottom: 0px solid #ccc;
+}
+.nav-bar .module,
+.nav-bar .module-group {
+  height: 85px;
+}
+.nav-bar a {
+  display: inline-block;
+  height: 85px;
+}
+.logo {
+  max-height: 70%;
+}
+.logo-light {
+  display: none;
+}
+nav.nav-centered .logo {
+  max-height: 64px;
+  margin: 64px 0 40px 0;
+}

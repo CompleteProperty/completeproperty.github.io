@@ -1,0 +1,22 @@
+<section class="image-slider slider-all-controls controls-inside parallax pt0 pb0 height-70">
+  <ul class="slides">
+    {% for item in site.data.heros %}
+    <li class="overlay image-bg">
+      <div class="background-image-holder">
+        <img alt="image" class="background-image" src="{{item.image_url}}">
+      </div>
+      <div class="container v-align-transform">
+        <div class="row text-center">
+          <div class="col-md-10 col-md-offset-1">
+            <h2 class="mb-xs-16">{{item.headline}}</h2>
+            <p class="lead mb40">
+              {{item.subhead}}
+            </p>
+            <a class="btn btn-lg btn-filled" href="{{item.button_url}}">{{item.button_text}}</a>
+          </div>
+        </div>
+      </div>
+    </li>
+    {% endfor %}
+  </ul>
+</section>

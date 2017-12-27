@@ -1,0 +1,22 @@
+[
+  {
+    "quote" : "this is a quote",
+    "name" : "Some Guy",
+    "image_url" : "/img/120x120.jpg"
+  },
+  {
+    "quote" : "this is quote 2",
+    "name" : "Some Guy",
+    "image_url" : "/img/120x120.jpg"
+  },
+  {
+    "quote" : "this is quote 3",
+    "name" : "Some Guy",
+    "image_url" : "/img/120x120.jpg"
+  },
+  {
+    "quote" : "this is quote 4",
+    "name" : "Some Guy",
+    "image_url" : "/img/120x120.jpg"
+  }
+]

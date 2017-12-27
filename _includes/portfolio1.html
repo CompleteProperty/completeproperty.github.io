@@ -1,0 +1,27 @@
+<section class="projects">
+  <div class="container">
+    <div class="masonry-loader">
+      <div class="col-sm-12 text-center">
+        <div class="spinner"></div>
+      </div>
+    </div>
+    <div class="row masonry masonryFlyIn">
+      {% for item in site.data.portfolio %}
+      <div class="col-sm-6 masonry-item project" data-filter="{{item.type}}">
+        <div class="image-tile hover-tile text-center">
+          <img alt="image" class="background-image" src="{{item.thumbnail_url}}">
+          <div class="hover-state">
+            <a href="#">
+              <h3 class="uppercase mb8">{{item.name}}</h3>
+              <h6 class="uppercase">{{item.location}}</h6>
+            </a>
+          </div>
+        </div>
+
+      </div>
+      {% endfor %}
+    </div>
+
+  </div>
+
+</section>

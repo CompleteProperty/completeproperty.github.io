@@ -1,0 +1,30 @@
+[
+  {
+    "headline" : "Interior Renovation & Exterior Restoration Services",
+    "subhead" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "image_url" : "/img/hero1.jpg",
+    "button_text" : "Learn More",
+    "button_url" : "#"
+  },
+  {
+    "headline" : "Exterior Restoration Services",
+    "subhead" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "image_url" : "/img/hero2.jpg",
+    "button_text" : "Learn More",
+    "button_url" : "#"
+  },
+  {
+    "headline" : "Interior Restoration Services",
+    "subhead" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "image_url" : "/img/hero3.jpg",
+    "button_text" : "Learn More",
+    "button_url" : "#"
+  },
+  {
+    "headline" : "Special Projects",
+    "subhead" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "image_url" : "/img/hero4.jpg",
+    "button_text" : "Learn More",
+    "button_url" : "#"
+  }
+]

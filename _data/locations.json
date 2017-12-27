@@ -1,0 +1,50 @@
+[
+  {
+    "name" : "South Florida Office",
+    "address1" : "4700 SW 51st St",
+    "address2" : "Suite 216",
+    "city" : "Davie",
+    "state" : "FL",
+    "zip" : "33314",
+    "phone" : "954-589-2405",
+    "email" : "info@completeproperty.com",
+    "hours" : "Monday to Friday 8:00 AM to 5:00 PM",
+    "map_url" : "https://www.google.com/maps?q=26.047893,-80.165015"
+  },
+  {
+    "name" : "West Coast Florida Office",
+    "address1" : "13505 Prestige Place",
+    "address2" : "",
+    "city" : "Tampa",
+    "state" : "FL",
+    "zip" : "33635",
+    "phone" : "727-793-9777",
+    "email" : "info@completeproperty.com",
+    "hours" : "Monday to Friday 8:00 AM to 5:00 PM",
+    "map_url" : "https://www.google.com/maps?q=28.034341,-82.639734"
+  },
+  {
+    "name" : "East Coast Florida Office",
+    "address1" : "9556 Historic Kings Road",
+    "address2" : "Suite 204/205",
+    "city" : "Jacksonville",
+    "state" : "FL",
+    "zip" : "32257",
+    "phone" : "904-559-2183",
+    "email" : "info@completeproperty.com",
+    "hours" : "Monday to Friday 8:00 AM to 5:00 PM",
+    "map_url" : "https://www.google.com/maps?q=30.204627,-81.578503"
+  },
+  {
+    "name" : "California Office",
+    "address1" : "9900 Irvine Center Drive",
+    "address2" : "Suite 100",
+    "city" : "Irvine",
+    "state" : "CA",
+    "zip" : "92618",
+    "phone" : "904-559-2183",
+    "email" : "info@completeproperty.com",
+    "hours" : "Monday to Friday 8:00 AM to 5:00 PM",
+    "map_url" : "https://www.google.com/maps?q=33.630540,-117.730282"
+  }
+]

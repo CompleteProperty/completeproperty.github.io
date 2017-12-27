@@ -1,0 +1,42 @@
+[
+  {
+    "name" : "Hank Gatti",
+    "title" : "Chief Executive Officer",
+    "email" : "hgatti@completeproperty.com",
+    "image_url" : "/img/500x500.jpg",
+    "about" : "Et harum quidem rerum facilis est et expedita distinctio.",
+    "linkedin_account" : ""
+  },
+  {
+    "name" : "Matt Krueger",
+    "title" : "",
+    "email" : "mjkrueger@completeproperty.com",
+    "image_url" : "/img/500x500.jpg",
+    "about" : "Et harum quidem rerum facilis est et expedita distinctio. ",
+    "linkedin_account" : ""
+  },
+  {
+    "name" : "Michael Krueger",
+    "title" : "",
+    "email" : "mkrueger@completeproperty.com",
+    "image_url" : "/img/500x500.jpg",
+    "about" : "Et harum quidem rerum facilis est et expedita distinctio.",
+    "linkedin_account" : ""
+  },
+  {
+    "name" : "Leta Hardy",
+    "title" : "",
+    "email" : "lhardy@completeproperty.com",
+    "image_url" : "/img/500x500.jpg",
+    "about" : "Et harum quidem rerum facilis est et expedita distinctio.",
+    "linkedin_account" : ""
+  },
+  {
+    "name" : "Denis Hudlett",
+    "title" : "",
+    "email" : "dhudlett@completeproperty.com",
+    "image_url" : "/img/500x500.jpg",
+    "about" : "Et harum quidem rerum facilis est et expedita distinctio.",
+    "linkedin_account" : ""
+  }
+]

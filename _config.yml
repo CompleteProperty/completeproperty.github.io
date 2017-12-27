@@ -1,0 +1,38 @@
+title: Complete Property Services
+email: info@completeproperty.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Interior Renovation & Exterior Restoration Services
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+permalink: /blog/:title/
+twitter_username: CompletePropSvc
+github_username:
+linkedin_username: complete-property-services-inc-
+facebook_username: Complete-Property-Services-Inc-445938182146078
+youtube_username:
+google_username: 117510865719468044164
+pinterest_username: cpsinc
+
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+
+collections:
+  projects:
+    output: true
+    permalink: /:collection/:name
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/

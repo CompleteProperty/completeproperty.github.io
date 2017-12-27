@@ -1,0 +1,32 @@
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 text-center">
+        <h4 class="mb16">Frequently Asked Questions</h4>
+        <p class="lead mb64">
+          You can also get your questions answered by connecting with us on Twitter at <a href="http://twitter.com/{{site.twitter_username}}">@{{site.twitter_username}}</a>.<br/> If you’d rather avoid the social scene, <a href="/contact">contact us via email</a>.
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-10 col-sm-offset-1">
+        <ul class="accordion accordion-2 one-open">
+          {% for item in site.data.faq %}
+          <li>
+            <div class="title">
+              <h4 class="inline-block mb0">{{item.question}}</h4>
+            </div>
+            <div class="content">
+              <p>
+                {{item.answer}}
+              </p>
+            </div>
+          </li>
+          {% endfor %}
+        </ul>
+
+      </div>
+    </div>
+
+  </div>
+</section>
