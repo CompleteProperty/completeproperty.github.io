@@ -1,11 +1,11 @@
 <section class="page-title page-title-3 image-bg overlay parallax">
   <div class="background-image-holder">
-    <img alt="Background Image" class="background-image" src="img/cover15.jpg">
+    <img alt="Background Image" class="background-image" src="{{include.image_url}}">
   </div>
   <div class="container">
     <div class="row">
       <div class="col-sm-12 text-center">
-        <h3 class="uppercase mb0">Small Image</h3>
+        <h3 class="uppercase mb0">{{include.title}}</h3>
       </div>
     </div>
 
@@ -13,11 +13,8 @@
 
   <ol class="breadcrumb breadcrumb-2">
     <li>
-      <a href="#">Home</a>
+      <a href="/">Home</a>
     </li>
-    <li>
-      <a href="#">Elements</a>
-    </li>
-    <li class="active">Page Titles</li>
+    <li class="active">{{include.title}}</li>
   </ol>
 </section>
