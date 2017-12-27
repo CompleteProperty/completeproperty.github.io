@@ -2,41 +2,9 @@
 layout: foundry
 ---
 
-<section class="p0">
-  <div class="map-holder pt180 pb180">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d117313.72025175144!2d-82.639734!3d28.034341!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1481660735195" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-  </div>
-</section>
-<section>
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-6 col-md-5">
-        <h4 class="uppercase">Get In Touch</h4>
-        <p>
-          Dabble Lab is based in Tampa Bay Florida with team members living and working throughout North America, Europe and Asia. If you’d like to contact us, please use the form on this page or, if you’d prefer to talk in-person, please <a herf="/schedule">use this link to schedule a meeting</a>.
-        </p>
-        <hr>
-        <p>
-          1311 N Westshore Blvd
-          <br> Suite 101
-          <br> Tampa, FL 33607
-        </p>
-        <hr>
-        <p>
-          <strong>E:</strong> hello@dabblelab.com
-          <br>
-          <strong>P:</strong> (813) 575-0530
-          <br>
-        </p>
-      </div>
-      <div class="col-sm-6 col-md-5 col-md-offset-1">
-        <form class="form-email" data-success="Thanks for your submission, we will be in touch shortly." data-error="Please fill all fields correctly.">
-          <input type="text" class="validate-required" name="name" placeholder="Your Name">
-          <input type="text" class="validate-required validate-email" name="email" placeholder="Email Address">
-          <textarea class="validate-required" name="message" rows="4" placeholder="Message"></textarea>
-          <button type="submit">Send Message</button>
-        </form>
-      </div>
-    </div>
-  </div>
-</section>
+{%
+  include contact1.html
+  email = site.email
+  phone = "727-793-9777"
+  address = "13505 Prestige Place<br/> Tampa, Florida 33635-9619"
+%}
