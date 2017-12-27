@@ -1,0 +1,31 @@
+<!-- Lightbox Grid Gallery -->
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 text-center">
+        <h4 class="uppercase mb16">{{include.headline}}</h4>
+        <p class="lead mb64">
+          {{include.content}}
+        </p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="lightbox-grid square-thumbs" data-gallery-title="Gallery">
+          <ul>
+            {% for item in site.data.portfolio %}
+            <li>
+              <a href="{{item.thumbnail_url}}" data-lightbox="true">
+                <div class="background-image-holder">
+                  <img alt="image" class="background-image" src="{{item.thumbnail_url}}">
+                </div>
+              </a>
+            </li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
