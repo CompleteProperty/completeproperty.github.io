@@ -34,39 +34,20 @@
           <li class="has-dropdown">
             <a href="/projects">Portfolio</a>
             <ul class="mega-menu">
-              <li>
-                <ul>
-                  <li>
-                    <span class="title">Interiors</span>
-                  </li>
-                  <li>
-                    <a href="#">
-                      Hyatt Regency Coconut Point</a>
-                  </li>
-                </ul>
-              </li>
-              <li>
-                <ul>
-                  <li>
-                    <span class="title">Exterior</span>
-                  </li>
-                  <li>
-                    <a href="#">
-                      Vinoy Place</a>
-                  </li>
-                </ul>
-              </li>
-              <li>
-                <ul>
-                  <li>
-                    <span class="title">Speciality</span>
-                  </li>
-                  <li>
-                    <a href="#">
-                      Carlton Dunes</a>
-                  </li>
-                </ul>
-              </li>
+            {% assign projects = site.projects | group_by: 'type' %}
+            {% for project in projects %}
+            <li>
+              <ul>
+                <li>
+                  <span class="title">{{project.name}}</span>
+                </li>
+                {% assign items = project.items | sort: 'name' %}
+                {% for item in items %}
+                  <li><a href="{{ item.url }}">{{ item.name }}</a></li>
+                {% endfor %}
+              </ul>
+            </li>
+            {% endfor %}
             </ul>
           </li>
           <li>
