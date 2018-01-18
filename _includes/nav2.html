@@ -18,10 +18,10 @@
             <a href="/">Home</a>
           </li>
           <li class="has-dropdown">
-            <a href="/about">About Us</a>
+            <a href="/company">Company</a>
             <ul>
               <li>
-                <a href="/about">Company</a>
+                <a href="/about">Our Story</a>
               </li>
               <li>
                 <a href="/team">Leadership</a>
@@ -29,36 +29,50 @@
               <li>
                 <a href="/safety">Safety</a>
               </li>
+              <li>
+                <a href="/giving">Giving Back</a>
+              </li>
+              <li>
+                <a href="/join">Join Our Team</a>
+              </li>
+              <li>
+                <a href="/locations">Locations</a>
+              </li>
+
             </ul>
           </li>
           <li class="has-dropdown">
-            <a href="/projects">Portfolio</a>
-            <ul class="mega-menu">
-            {% assign projects = site.projects | group_by: 'type' %}
-            {% for project in projects %}
-            <li>
-              <ul>
-                <li>
-                  <span class="title">{{project.name}}</span>
-                </li>
-                {% assign items = project.items | sort: 'name' %}
-                {% for item in items %}
-                  <li><a href="{{ item.url }}">{{ item.name }}</a></li>
-                {% endfor %}
-              </ul>
-            </li>
-            {% endfor %}
+            <a href="/interior">Interiors</a>
+            <ul>
+              <li>
+                <a href="#">Services</a>
+              </li>
+              <li>
+                <a href="#">Our Work</a>
+              </li>
+              <li>
+                <a href="#">Speciality</a>
+              </li>
+            </ul>
+          </li>
+          <li class="has-dropdown">
+            <a href="/interior">Exteriors</a>
+            <ul>
+              <li>
+                <a href="#">Services</a>
+              </li>
+              <li>
+                <a href="#">Our Work</a>
+              </li>
+              <li>
+                <a href="#">Speciality</a>
+              </li>
             </ul>
           </li>
           <li>
-            <a href="/faq">FAQ</a>
+            <a href="#">News</a>
           </li>
-          <li class="has-dropdown">
-            <a href="/contact">Contact</a>
-            <ul>
-              <li><a href="/locations">Locations</a></li>
-            </ul>
-          </li>
+
         </ul>
       </div>
       <!--end of menu module-->

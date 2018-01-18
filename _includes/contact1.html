@@ -9,24 +9,28 @@
       <div class="col-sm-6 col-md-5">
         <h4 class="uppercase">Get In Touch</h4>
         <p>
-          You can use the form on this page to contact us by email. We can also be reached via phone at <a href="tel://{{include.phone}}">{{include.phone}}</a>, or through our Facebook page located at <a href="http://facebook.com/{{site.facebook_username}}">facebook.com/{{site.facebook_username}}</a>.
+          You can use the form on this page to contact us by email. We can also be reached via phone at <a href="tel://{{include.phone}}">{{include.phone}}</a>.
+        </p>
+        <p>
+          <a href="/locations">See our office locations list</a> for local office details.
+        </p>
+        <p>
+          Interested in being a subcontractor? Visit our <a hred="/contractors">subcontractor page</a>.
         </p>
         <hr>
         <p>
           <h5>Corporate Office</h5>
           <address>
           {{include.address}}
+          <br/>
+          {{include.email}}
+          <br>
+          {{include.phone}}
           </address>
+        </p>
 
-          Note: <a href="/locations">See our office locations list</a> for local office details.
-        </p>
         <hr>
-        <p>
-          <strong>E:</strong> {{include.email}}
-          <br>
-          <strong>P:</strong> {{include.phone}}
-          <br>
-        </p>
+
       </div>
       <div class="col-sm-6 col-md-5 col-md-offset-1">
         <form class="form-email" data-success="Thanks for your submission, we will be in touch shortly." data-error="Please fill all fields correctly.">
