@@ -39,5 +39,60 @@
     "about" : "Et harum quidem rerum facilis est et expedita distinctio.",
     "linkedin_account" : ""
   },
-
+  {
+    "name" : "Denis Hudlett",
+    "title" : "Director of Purchasing",
+    "email" : "dhudlett@completeproperty.com",
+    "image_url" : "/img/500x500.jpg",
+    "about" : "Et harum quidem rerum facilis est et expedita distinctio.",
+    "linkedin_account" : ""
+  },
+  {
+    "name" : "Mickey Johnson",
+    "title" : "Sr Project Manager - Interiors",
+    "email" : "mjohnson@completeproperty.com",
+    "image_url" : "/img/500x500.jpg",
+    "about" : "Et harum quidem rerum facilis est et expedita distinctio.",
+    "linkedin_account" : ""
+  },
+  {
+    "name" : "Raul Cartagena",
+    "title" : "Branch Manager - South Florida",
+    "email" : "rcartagena@completeproperty.com",
+    "image_url" : "/img/500x500.jpg",
+    "about" : "Et harum quidem rerum facilis est et expedita distinctio.",
+    "linkedin_account" : ""
+  },
+  {
+    "name" : "Jim Allison",
+    "title" : "Branch Manager - Jacksonville",
+    "email" : "jallison@completeproperty.com",
+    "image_url" : "/img/500x500.jpg",
+    "about" : "Et harum quidem rerum facilis est et expedita distinctio.",
+    "linkedin_account" : ""
+  },
+  {
+    "name" : "Creig Mullikin",
+    "title" : "Branch Manager - Califorina",
+    "email" : "cmullikin@completeproperty.com",
+    "image_url" : "/img/500x500.jpg",
+    "about" : "Et harum quidem rerum facilis est et expedita distinctio.",
+    "linkedin_account" : ""
+  },
+  {
+    "name" : "George White",
+    "title" : "Director of Demolition and Abatment Services",
+    "email" : "gwhite@completeproperty.com",
+    "image_url" : "/img/500x500.jpg",
+    "about" : "Et harum quidem rerum facilis est et expedita distinctio.",
+    "linkedin_account" : ""
+  },
+  {
+    "name" : "Ron Bigelow",
+    "title" : "Director of Safety",
+    "email" : "rbigelow@completeproperty.com",
+    "image_url" : "/img/500x500.jpg",
+    "about" : "Et harum quidem rerum facilis est et expedita distinctio.",
+    "linkedin_account" : ""
+  }
 ]
