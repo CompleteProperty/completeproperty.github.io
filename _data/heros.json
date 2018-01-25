@@ -1,30 +1,30 @@
 [
   {
     "headline" : "Interior Renovation & Exterior Restoration Services",
-    "subhead" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "image_url" : "/img/hero7.jpg",
+    "subhead" : "Proven Class A - General Contractor Providing Interior and Exterior Renovation Services Throughout the Continental United States and the Caribbean.",
+    "image_url" : "/img/hero-home.jpg",
     "button_text" : "Learn More",
-    "button_url" : "#"
+    "button_url" : "/about"
+  },
+  {
+    "headline" : "Interior Renovation Services",
+    "subhead" : "Hospitality Renovation Contractors – Budget, Plan, Manage and Implement Complex Renovation Projects",
+    "image_url" : "/img/hero-interior.jpg",
+    "button_text" : "Learn More",
+    "button_url" : "/interiors"
   },
   {
     "headline" : "Exterior Restoration Services",
-    "subhead" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "image_url" : "/img/exterior1.jpg",
+    "subhead" : "Completing Innovative Exterior Building Envelope Restorations Solutions – Concrete, EIFS, Stucco and Masonry  - Completed with Our Own Team of Trained Professionals",
+    "image_url" : "/img/hero-exterior.jpg",
     "button_text" : "Learn More",
-    "button_url" : "#"
+    "button_url" : "/exteriors"
   },
   {
-    "headline" : "Interior Restoration Services",
-    "subhead" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "image_url" : "/img/hero3.jpg",
+    "headline" : "Specialty Contracting",
+    "subhead" : "Solving Unique Challenges for our Clients – Remediation - New Construction - Plaza Deck Repairs - Below Grade Waterproofing - Demolition and Abatement Services",
+    "image_url" : "/img/hero-specialty.jpg",
     "button_text" : "Learn More",
-    "button_url" : "#"
-  },
-  {
-    "headline" : "Special Projects",
-    "subhead" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "image_url" : "/img/hero6.jpg",
-    "button_text" : "Learn More",
-    "button_url" : "#"
+    "button_url" : "/specialty"
   }
 ]
