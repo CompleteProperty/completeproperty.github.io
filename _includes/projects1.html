@@ -1,10 +1,7 @@
-
-
-
 <section class="projects pt48">
   <div class="container">
 
-    <div class="row pb24">
+    <!--<div class="row pb24">
       <div class="row mb16 mb-xs-0">
         <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 text-center">
           <h3>Sed ut perspiciatis unde omnis iste natus</h3>
@@ -17,7 +14,7 @@
           </p>
         </div>
       </div>
-
+-->
       <div class="col-sm-12 text-center">
           <ul class="filters mb0">
           </ul>
@@ -30,12 +27,13 @@
     </div>
     <div class="row masonry masonryFlyIn">
       {% for item in site.projects %}
-      <div class="col-sm-6 masonry-item project" data-filter="{{item.type}}">
+      <div class="col-sm-3 masonry-item project" data-filter="{{item.type}}">
         <div class="image-tile hover-tile text-center">
-          <img alt="image" class="background-image" src="{{item.image_url}}">
+          {% assign img = item.images[0] %}
+          <img alt="{{item.name}}" class="background-image" src="{{ img.image.src }}">
           <div class="hover-state">
-            <a href="#">
-              <h3 class="uppercase mb8">{{item.name}}</h3>
+            <a href="{{item.url}}">
+              <h5 class="uppercase bold mb8">{{item.name}}</h5>
               <h6 class="uppercase">{{item.location}}</h6>
             </a>
           </div>
