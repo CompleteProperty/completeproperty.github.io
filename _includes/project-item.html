@@ -1,97 +1,25 @@
-  <section class="page-title page-title-4 bg-dark">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6">
-          <h3 class="uppercase mb0">{{ page.title }}</h3>
-        </div>
-        <div class="col-md-6 text-right">
-          <ol class="breadcrumb breadcrumb-2">
-            <li>
-              <a href="/">Home</a>
-            </li>
-            <li>
-              <a href="/projects">Projects</a>
-            </li>
-            <li class="active">About Us</li>
-          </ol>
-        </div>
-      </div>
 
-    </div>
-  </section>
 
-<section class="bg-dark pt0 pb40">
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-3 col-xs-6 mb-xs-24">
-        <span>Client:</span>
-        <h6 class="uppercase mb0">{{page.name}}</h6>
-      </div>
-      <div class="col-sm-3 col-xs-6 mb-xs-24">
-        <span>Our Role:</span>
-        <h6 class="uppercase mb0">Design, Consultation</h6>
-      </div>
-      <div class="col-sm-3 col-xs-6 mb-xs-24">
-        <span>Turnaround:</span>
-        <h6 class="uppercase mb0">May - July</h6>
-      </div>
-      <div class="col-sm-3 col-xs-6 mb-xs-24">
-        <span>Type:</span>
-        <h6 class="uppercase mb0">{{page.type}}</h6>
-      </div>
-    </div>
-    <!--end of row-->
-  </div>
-  <!--end of container-->
-</section>
-<section class="bg-dark pt0">
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-12">
-        <hr class="mb48 mb-xs-32">
-      </div>
-    </div>
-    <!--end of row-->
-    <div class="row">
-      <div class="col-sm-4 mb-xs-24">
-        <h5 class="uppercase">Brief</h5>
-        <p class="mb0">
-          At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.
-        </p>
-      </div>
-      <div class="col-sm-4 mb-xs-24">
-        <h5 class="uppercase">Process</h5>
-        <p class="mb0">
-          At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.
-        </p>
-      </div>
-      <div class="col-sm-4 mb-xs-24">
-        <h5 class="uppercase">Result</h5>
-        <p class="mb0">
-          At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.
-        </p>
-      </div>
-    </div>
-    <!--end of row-->
-  </div>
-  <!--end of container-->
-</section>
   <section>
     <div class="container">
-      <div class="feed-item mb96 mb-xs-48">
-        <div class="row mb16 mb-xs-0">
-          <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 text-center">
-            <h3>{{ page.title }}</h3>
-          </div>
+      <div class="row mb16 mb-xs-0">
+        <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 text-center">
+          <h3>{{ page.name }}</h3>
+          <h5>{{page.location}}</h5>
+          <h6>{{page.type}}</h6>
         </div>
-        <div class="row mb32 mb-xs-16">
-          <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
-            <img alt="Article Image" class="mb32 mb-xs-16" src="{{ page.image_url }}">
-            <p class="lead">
-              {{ page.description }}
-            </p>
-          </div>
+      </div>
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
+          {% assign img = page.images[0] %}
+          <img alt="Article Image" class="mb32 mb-xs-16" src="{{ img.image.src }}">
+          {% for item in page.scope %}
+          <ul>
+            <li>{{ item.work }}</li>
+          </ul>
+          {% endfor %}
         </div>
+
       </div>
     </div>
   </section>

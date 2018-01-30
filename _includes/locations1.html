@@ -5,9 +5,10 @@
         {% for item in site.data.locations %}
         <div class="horizontal-tile">
           <div class="tile-left">
-            <a href="#">
+            <a href="{{item.map_url}}" target="_blank">
               <div class="background-image-holder">
-                <img alt="image" class="background-image" src="https://maps.googleapis.com/maps/api/staticmap?center={{item.address1 | cgi_escape}}+{{item.city | cgi_escape}},+{{item.state | cgi_escape}}+{{item.zip | cgi_escape}}&zoom=13&scale=2&size=600x300&maptype=roadmap&format=png&visual_refresh=true&markers=size:mid%7Ccolor:0xff0000%7Clabel:%7C9556+{{item.address1 | cgi_escape}}+{{item.city | cgi_escape}},+{{item.state | cgi_escape}}+{{item.zip | cgi_escape}}">
+                <!-- img alt="image" class="background-image" src="https://maps.googleapis.com/maps/api/staticmap?center={{item.address1 | cgi_escape}}+{{item.city | cgi_escape}},+{{item.state | cgi_escape}}+{{item.zip | cgi_escape}}&zoom=13&scale=2&size=600x300&maptype=roadmap&format=png&visual_refresh=true&markers=size:mid%7Ccolor:0xff0000%7Clabel:%7C9556+{{item.address1 | cgi_escape}}+{{item.city | cgi_escape}},+{{item.state | cgi_escape}}+{{item.zip | cgi_escape}}" -->
+                <img alt="image" class="background-image" src="{{item.map_image_url}}" />
               </div>
             </a>
           </div>
