@@ -22,3 +22,6 @@ nav.nav-centered .logo {
   max-height: 64px;
   margin: 64px 0 40px 0;
 }
+
+.logo-carousel li{opacity: 1 !important; width: 300px !important; height: 300px; margin-right: 15px;}
+.logo-carousel img{min-height: 300px; border-radius: 3px;}
