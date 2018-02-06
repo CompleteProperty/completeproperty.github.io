@@ -25,7 +25,7 @@
           {% assign img = page.images[0] %}
           <img alt="Article Image" class="mb32 mb-xs-16" src="{{ img.image.src }}">
           {% for item in page.scope %}
-          <ul data-bullet="ti-check-box">
+          <ul>
             <li>{{ item.work }}</li>
           </ul>
           {% endfor %}
