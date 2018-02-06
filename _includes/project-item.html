@@ -1,4 +1,15 @@
-
+<section class="image-slider slider-all-controls controls-inside parallax pt0 pb0 height-70">
+  <ul class="slides">
+    {% for item in page.images %}
+    <li class="">
+      <div class="background-image-holder">
+        {% assign img = page.images[0] %}
+        <img alt="image" class="background-image" src="{{ item.image.src }}">
+      </div>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
 
   <section>
     <div class="container">
@@ -14,7 +25,7 @@
           {% assign img = page.images[0] %}
           <img alt="Article Image" class="mb32 mb-xs-16" src="{{ img.image.src }}">
           {% for item in page.scope %}
-          <ul>
+          <ul data-bullet="ti-check-box">
             <li>{{ item.work }}</li>
           </ul>
           {% endfor %}
