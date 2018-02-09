@@ -1,34 +1,39 @@
-<section class="image-slider slider-all-controls controls-inside parallax pt0 pb0 height-70">
-  <ul class="slides">
-    {% for item in page.images %}
-    <li class="">
-      <div class="background-image-holder">
-        {% assign img = page.images[0] %}
-        <img alt="image" class="background-image" src="{{ item.image.src }}">
+<section class="page-title page-title-3 bg-primary">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 text-center custom-header">
+        <h3 class="uppercase">{{ page.name }}</h3>
+        <h5 class="uppercase">{{page.location}}</h5>
+        <h6 class="uppercase">{{page.type}}</h6>
       </div>
-    </li>
-    {% endfor %}
-  </ul>
+    </div>
+  </div>
 </section>
+
 
   <section>
     <div class="container">
-      <div class="row mb16 mb-xs-0">
-        <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 text-center">
-          <h3>{{ page.name }}</h3>
-          <h5>{{page.location}}</h5>
-          <h6>{{page.type}}</h6>
-        </div>
-      </div>
       <div class="row">
         <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
-          {% assign img = page.images[0] %}
-          <img alt="Article Image" class="mb32 mb-xs-16" src="{{ img.image.src }}">
-          {% for item in page.scope %}
-          <ul>
-            <li>{{ item.work }}</li>
-          </ul>
-          {% endfor %}
+          <section class="image-slider slider-all-controls controls-inside pt0 pb0 height-70">
+            <ul class="slides">
+              {% for item in page.images %}
+              <li class="">
+                <div class="background-image-holder">
+                  {% assign img = page.images[0] %}
+                  <img alt="image" class="background-image" src="{{ item.image.src }}">
+                </div>
+              </li>
+              {% endfor %}
+            </ul>
+          </section>
+          <div class="custom-list">
+            {% for item in page.scope %}
+            <div>
+              <p><i class="ti-angle-double-right"></i>{{ item.work }}</p>
+            </div>
+            {% endfor %}
+          </div>
         </div>
 
       </div>
