@@ -1099,7 +1099,7 @@ function initializeMasonry(){
 
         msnry.on('layoutComplete', function() {
 
-            mr_firstSectionHeight = $('.main-container section:nth-of-type(1)').outerHeight(true);
+            mr_firstSectionHeight = $('.main-container section:nth-of-type(1)').outerHeight(false);
 
             // Fix floating project filters to bottom of projects container
 

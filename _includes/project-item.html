@@ -14,7 +14,7 @@
   <section>
     <div class="container">
       <div class="row">
-        <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
+        <div class="col-md-6">
           <section class="image-slider slider-all-controls controls-inside pt0 pb0 height-70">
             <ul class="slides">
               {% for item in page.images %}
@@ -27,15 +27,14 @@
               {% endfor %}
             </ul>
           </section>
-          <div class="custom-list">
-            {% for item in page.scope %}
-            <div>
-              <p><i class="ti-angle-double-right"></i>{{ item.work }}</p>
-            </div>
-            {% endfor %}
-          </div>
         </div>
-
+        <div class="custom-list">
+          {% for item in page.scope %}
+          <div>
+            <p><i class="ti-angle-double-right"></i>{{ item.work }}</p>
+          </div>
+          {% endfor %}
+        </div>
       </div>
     </div>
   </section>
