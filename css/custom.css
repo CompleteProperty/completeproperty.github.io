@@ -37,7 +37,5 @@ input[type="email"]{background: #f5f5f5; border: none; width: 100%; height: 50px
 .custom-list p{margin-bottom: 35px; font-size: 20px;}
 .custom-list i{padding-right: 15px; line-height: 30px;}
 .projects .project{padding: 0 10px 10px 0;}
-.custom-list {float: left; margin-left: 30px;
-}
-.cust-bg{padding: 60px 0 !important;}
-.cust-logo{margin-top: 35px;}
+.custom-list {float: left; margin-left: 30px;}
+
