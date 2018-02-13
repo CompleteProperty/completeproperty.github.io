@@ -23,8 +23,7 @@ nav.nav-centered .logo {
   margin: 64px 0 40px 0;
 }
 
-.logo-carousel li{opacity: 1 !important; width: 300px !important; height: 300px; margin-right: 15px;}
-.logo-carousel img{min-height: 300px; border-radius: 3px;}
+.logo-carousel li{margin-right: 2px;}
 #mc_embed_signup{width: 700px; margin: 60px auto 60px; background: #eeeeee; padding: 20px;}
 .indicates-required{text-align: right;}
 .asterisk{color: #ff0000;}

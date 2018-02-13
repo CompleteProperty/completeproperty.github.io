@@ -27,11 +27,12 @@
               {% endfor %}
             </ul>
           </section>
+          <ul class="flex-direction-nav"><li><a class="flex-prev" href="#">Previous</a></li><li><a class="flex-next" href="#">Next</a></li></ul>
         </div>
         <div class="custom-list">
           {% for item in page.scope %}
           <div>
-            <p><i class="ti-angle-double-right"></i>{{ item.work }}</p>
+            <p><i class="ti-check-box"></i>{{ item.work }}</p>
           </div>
           {% endfor %}
         </div>
