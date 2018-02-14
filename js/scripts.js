@@ -347,7 +347,8 @@ $(document).ready(function() {
         $('.slider-thumb-controls').flexslider({
             animation: "slide",
             controlNav: "thumbnails",
-            directionNav: true
+            directionNav: true,
+            animationLoop: true
         });
         $('.logo-carousel').flexslider({
             minItems: 1,
