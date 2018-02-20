@@ -43,7 +43,7 @@
     "name" : "Denis Hudlett",
     "title" : "Director of Purchasing",
     "email" : "dhudlett@completeproperty.com",
-    "image_url" : "/img/500x500.jpg",
+    "image_url" : "/img/team/denis-hudlett.jpg",
     "about" : "Et harum quidem rerum facilis est et expedita distinctio.",
     "linkedin_account" : ""
   },
@@ -51,7 +51,7 @@
     "name" : "Mickey Johnson",
     "title" : "Sr Project Manager - Interiors",
     "email" : "mjohnson@completeproperty.com",
-    "image_url" : "/img/500x500.jpg",
+    "image_url" : "/img/team/mickey-johnson.jpg",
     "about" : "Et harum quidem rerum facilis est et expedita distinctio.",
     "linkedin_account" : ""
   },
@@ -59,7 +59,7 @@
     "name" : "Raul Cartagena",
     "title" : "Branch Manager - South Florida",
     "email" : "rcartagena@completeproperty.com",
-    "image_url" : "/img/500x500.jpg",
+    "image_url" : "/img/team/raul-cartagena.jpg",
     "about" : "Et harum quidem rerum facilis est et expedita distinctio.",
     "linkedin_account" : ""
   },
@@ -67,7 +67,7 @@
     "name" : "Jim Allison",
     "title" : "Branch Manager - Jacksonville",
     "email" : "jallison@completeproperty.com",
-    "image_url" : "/img/500x500.jpg",
+    "image_url" : "/img/team/jim-allison.jpg",
     "about" : "Et harum quidem rerum facilis est et expedita distinctio.",
     "linkedin_account" : ""
   },
@@ -75,7 +75,7 @@
     "name" : "Creig Mullikin",
     "title" : "Branch Manager - Califorina",
     "email" : "cmullikin@completeproperty.com",
-    "image_url" : "/img/500x500.jpg",
+    "image_url" : "/img/team/creig-mullikin.jpg",
     "about" : "Et harum quidem rerum facilis est et expedita distinctio.",
     "linkedin_account" : ""
   },
@@ -83,7 +83,7 @@
     "name" : "George White",
     "title" : "Director of Demolition and Abatment Services",
     "email" : "gwhite@completeproperty.com",
-    "image_url" : "/img/500x500.jpg",
+    "image_url" : "/img/team/george-white.jpg",
     "about" : "Et harum quidem rerum facilis est et expedita distinctio.",
     "linkedin_account" : ""
   },
@@ -91,7 +91,15 @@
     "name" : "Joe Poznoski",
     "title" : "Sr. Project Manager - Exteriors",
     "email" : "jpoznoski@completeproperty.com",
-    "image_url" : "/img/500x500.jpg",
+    "image_url" : "/img/team/joe-poznoski.jpg",
+    "about" : "Et harum quidem rerum facilis est et expedita distinctio.",
+    "linkedin_account" : ""
+  },
+  {
+    "name" : "Joe Demmi",
+    "title" : "Team Member",
+    "email" : "jpoznoski@completeproperty.com",
+    "image_url" : "/img/team/joe-demmi.jpg",
     "about" : "Et harum quidem rerum facilis est et expedita distinctio.",
     "linkedin_account" : ""
   }
