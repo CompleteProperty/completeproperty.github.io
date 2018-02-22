@@ -94,13 +94,5 @@
     "image_url" : "/img/team/joe-poznoski.jpg",
     "about" : "Et harum quidem rerum facilis est et expedita distinctio.",
     "linkedin_account" : ""
-  },
-  {
-    "name" : "Joe Demmi",
-    "title" : "Team Member",
-    "email" : "jdemmi@completeproperty.com",
-    "image_url" : "/img/team/joe-demmi.jpg",
-    "about" : "Et harum quidem rerum facilis est et expedita distinctio.",
-    "linkedin_account" : ""
   }
 ]
