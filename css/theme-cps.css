@@ -2006,22 +2006,34 @@ form.halves span,
 form.thirds span {
   clear: both;
 }
-.form-error,
+
 .form-success {
-  background: #58ce38;
-  padding: 12px;
-  width: 80%;
-  color: #fff;
+  background: none;
+  padding: 0;
+  width: 100%;
+  color: #638095;
   clear: both;
   display: block;
   max-width: 700px;
   position: relative;
-  top: 16px;
+  top: 10px;
   margin: 0 auto;
   word-break: break-word;
+  text-align: center;
 }
 .form-error {
-  background: #ce3838;
+  background: none;
+  padding: 0;
+  width: 100%;
+  color: red;
+  clear: both;
+  display: block;
+  max-width: 700px;
+  position: relative;
+  top: 10px;
+  margin: 0 auto;
+  word-break: break-word;
+  text-align: center;
 }
 .form-error a,
 .form-success a {
