@@ -23,7 +23,7 @@
     </div>
     <div class="row masonry masonryFlyIn">
       {% for item in site.projects %}
-      <div class="col-md-4 col-sm-6 masonry-item project" data-filter="{{item.type}}">
+      <div class="col-md-4 col-sm-6 masonry-item project" data-category="{{item.type}}">
         <div class="image-tile inner-title hover-reveal text-center">
           <a href="{{item.url}}">
             <img alt="{{item.name}}" src="{{item.image_url}}">

@@ -27,7 +27,7 @@
     </div>
     <div class="row masonry masonryFlyIn">
       {% for item in site.projects %}
-      <div class="col-sm-3 masonry-item project" data-filter="{{item.type}}">
+      <div class="col-sm-3 masonry-item project" data-category="{{item.type}}">
         <div class="image-tile hover-tile text-center">
           {% assign img = item.images[0] %}
           <img alt="{{item.name}}" class="background-image" src="{{ img.image.src }}">

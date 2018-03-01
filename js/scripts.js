@@ -201,25 +201,25 @@ $(document).ready(function() {
 
         $(this).find('.project').each(function() {
 
-            var filterTags = $(this).attr('data-filter').split(',');
+            var filterTags = $(this).attr('data-category').split(',');
 
             filterTags.forEach(function(tagName) {
                 if (filters.indexOf(tagName) == -1) {
-                    filters += '<li data-filter="' + tagName + '">' + capitaliseFirstLetter(tagName) + '</li>';
+                    filters += '<li data-category="' + tagName + '">' + capitaliseFirstLetter(tagName) + '</li>';
                 }
             });
             $(this).closest('.projects')
-                .find('ul.filters').empty().append('<li data-filter="all" class="active">All</li>').append(filters);
+                .find('ul.filters').empty().append('<li data-category="all" class="active">All</li>').append(filters);
         });
     });
 
     $('.filters li').click(function() {
-        var filter = $(this).attr('data-filter');
+        var filter = $(this).attr('data-category');
         $(this).closest('.filters').find('li').removeClass('active');
         $(this).addClass('active');
 
         $(this).closest('.projects').find('.project').each(function() {
-            var filters = $(this).attr('data-filter');
+            var filters = $(this).attr('data-category');
 
             if (filters.indexOf(filter) == -1) {
                 $(this).addClass('inactive');
@@ -1386,3 +1386,59 @@ var mr_cookies = {
 /*\
 |*|  END COOKIE LIBRARY
 \*/
+
+$(function() {
+  //Simple filter controls
+  $('.simplefilter li').click(function() {
+    $('.simplefilter li').removeClass('active');
+    $(this).addClass('active');
+  });
+  //Multifilter controls
+  $('.multifilter li').click(function() {
+    $(this).toggleClass('active');
+  });
+  //Shuffle control
+  $('.shuffle-btn').click(function() {
+    $('.sort-btn').removeClass('active');
+  });
+  //Sort controls
+  $('.sort-btn').click(function() {
+    $('.sort-btn').removeClass('active');
+    $(this).addClass('active');
+  });
+});
+
+// Default options
+var options = {
+   animationDuration: 0.5, // in seconds
+   filter: 'all', // Initial filter
+   callbacks: {
+      onFilteringStart: function() { },
+      onFilteringEnd: function() { },
+      onShufflingStart: function() { },
+      onShufflingEnd: function() { },
+      onSortingStart: function() { },
+      onSortingEnd: function() { }
+   },
+   controlsSelector: '', // Selector for custom controls
+   delay: 0, // Transition delay in ms
+   delayMode: 'progressive', // 'progressive' or 'alternate'
+   easing: 'ease-out',
+   filterOutCss: { // Filtering out animation
+      opacity: 0,
+      transform: 'scale(0.5)'
+   },
+   filterInCss: { // Filtering in animation
+      opacity: 0,
+      transform: 'scale(1)'
+   },
+   layout: 'sameSize', // See layouts
+   multifilterLogicalOperator: 'or',
+   selector: '.filtr-container',
+   setupControls: true // Should be false if controlsSelector is set
+}
+// You can override any of these options and then call...
+var filterizd = $('.filtr-container').filterizr(options);
+// If you have already instantiated your Filterizr then call...
+filterizd.filterizr('setOptions', options);
+                
