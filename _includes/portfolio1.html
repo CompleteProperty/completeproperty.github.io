@@ -7,7 +7,7 @@
     </div>
     <div class="row masonry masonryFlyIn">
       {% for item in site.data.portfolio %}
-      <div class="col-sm-6 masonry-item project" data-filter="{{item.type}}">
+      <div class="col-sm-6 masonry-item project" data-category="{{item.type}}">
         <div class="image-tile hover-tile text-center">
           <img alt="image" class="background-image" src="{{item.thumbnail_url}}">
           <div class="hover-state">

@@ -43,3 +43,82 @@ h2.cust-heading {
     font-size: 38px !important;
     line-height: 55px !important;
 }
+
+
+
+.filtr-item {
+    padding: 1rem;
+    width: 250px;
+    height: 250px;
+}
+.item-desc {
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    position: absolute;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 1rem;
+    z-index: 1;
+    bottom: 1rem;
+    left: 1rem;
+    right: 1rem;
+}
+
+/* Filter controls */
+.simplefilter, .multifilter, .sortandshuffle, .search-row {
+  padding-left: 0;
+  overflow: hidden;
+  display: inline-block;
+}
+.simplefilter li{
+  float: left;
+  margin-right: 32px;
+  cursor: pointer;
+  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  border: 2px solid #638095;
+  padding: 0 26px;
+  height: 40px;
+  min-width: 150px;
+  line-height: 36px;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-radius: 0;
+  color: #638095;
+  text-align: center;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  margin-right: 8px;
+  margin-bottom: 24px;
+  height: 30px;
+  font-size: 11px;
+  line-height: 27px;
+  min-width: 0;
+  border-color: rgba(255, 255, 255, 0);
+  opacity: .7;
+  border-radius: 25px;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  display: inline-block;
+}
+
+.simplefilter li.active {
+  border-color: #638095;
+  opacity: 1;
+}
+
+/* Helpers */
+.push-down {
+  margin-bottom: 50px;
+}
+
+.filtr-container,
+{
+  transition: height 500ms ease-out;
+}
