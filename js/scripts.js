@@ -1383,6 +1383,27 @@ var mr_cookies = {
   }
 };
 
+$(document).ready(function(){
+      var owl = $('.owl-carousel');
+      owl.owlCarousel({
+        autoplay: true,
+        margin: 10,
+        nav: false,
+        loop: true,
+        responsive: {
+          0: {
+            items: 1
+          },
+          600: {
+            items: 3
+          },
+          1000: {
+            items: 5
+          }
+        }
+      })
+});
+
 /*\
 |*|  END COOKIE LIBRARY
 \*/
@@ -1441,4 +1462,3 @@ var options = {
 var filterizd = $('.filtr-container').filterizr(options);
 // If you have already instantiated your Filterizr then call...
 filterizd.filterizr('setOptions', options);
-                

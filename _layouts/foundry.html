@@ -9,6 +9,8 @@
   <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/owl.carousel.min.css" type="text/css" media="all">
+  <link rel="stylesheet" href="/css/owl.theme.default.min.css"  type="text/css" media="all">
   <link href="/css/pe-icon-7-stroke.css" rel="stylesheet" type="text/css" media="all">
   <link href="/css/et-line-icons.css" rel="stylesheet" type="text/css" media="all">
   <link href="/css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all">
@@ -21,6 +23,9 @@
   {% if jekyll.environment == 'production' and site.google_analytics %}
   {% include google-analytics.html %}
   {% endif %}
+
+  <script src="/js/jquery.min.js"></script>
+  <script src="/js/owl.carousel.js"></script>
 </head>
 
 <body class="scroll-assist btn-rounded perm-fixed-nav">
@@ -32,14 +37,17 @@
     {% include footer1.html %}
   </div>
 
-  <script src="/js/jquery.min.js"></script>
+
+
   <script src="/js/bootstrap.min.js"></script>
   <script src="/js/flexslider.min.js"></script>
   <script src="/js/masonry.min.js"></script>
   <script src="/js/lightbox.min.js"></script>
   <script src="/js/parallax.js"></script>
-    <script src="/js/jquery.filterizr.min.js"></script>
+  <script src="/js/jquery.filterizr.min.js"></script>
   <script src="/js/scripts.js"></script>
+
+
 
 </body>
 
