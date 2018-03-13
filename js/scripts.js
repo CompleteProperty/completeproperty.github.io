@@ -1386,21 +1386,13 @@ var mr_cookies = {
 $(document).ready(function(){
       var owl = $('.owl-carousel');
       owl.owlCarousel({
-        autoplay: true,
+        items: 4,
         margin: 10,
         nav: false,
         loop: true,
-        responsive: {
-          0: {
-            items: 1
-          },
-          600: {
-            items: 3
-          },
-          1000: {
-            items: 5
-          }
-        }
+        autoplay: true,
+        autoplayTimeout:1500,
+        autoplayHoverPause:true,
       })
 });
 
