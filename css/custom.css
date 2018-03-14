@@ -43,13 +43,17 @@ h2.cust-heading {
     font-size: 38px !important;
     line-height: 55px !important;
 }
-h2.cust-heading2 {
+.cust-heading2 {
     font-size: 30px !important;
     color: #638095 !important;
-
 }
-
-
+.cust-heading3 {
+    font-size: 30px !important;
+    color: #fff !important;
+}
+.mh{
+  min-height: 290px;
+}
 
 .filtr-item {
     padding: 1rem;

@@ -1,7 +1,7 @@
 [
   {
     "headline" : "Interior Renovation & Exterior Restoration Services",
-    "subhead" : "Proven Class A - General Contractor Providing Interior and Exterior Renovation Services Throughout the Continental United States and the Caribbean.",
+    "subhead" : "Providing Interior and Exterior Renovation Services Throughout the United States and the Caribbean.",
     "image_url" : "/img/hero-home.jpg",
     "button_text" : "Learn More",
     "button_url" : "/about"
@@ -15,14 +15,14 @@
   },
   {
     "headline" : "Exterior Restoration Services",
-    "subhead" : "Completing Innovative Exterior Building Envelope Restorations Solutions – Concrete, EIFS, Stucco and Masonry  - Completed with Our Own Team of Trained Professionals",
+    "subhead" : "Exterior Building Envelope Restoration Solutions ",
     "image_url" : "/img/hero-exterior.jpg",
     "button_text" : "Learn More",
     "button_url" : "/exteriors"
   },
   {
     "headline" : "Specialty Contracting",
-    "subhead" : "Solving Unique Challenges for our Clients – Remediation - New Construction - Plaza Deck Repairs - Below Grade Waterproofing - Demolition and Abatement Services",
+    "subhead" : "Solving Unique Challenges – Remediation - New Construction - Plaza Deck Repairs - Demolition and Abatement Services",
     "image_url" : "/img/hero-specialty.jpg",
     "button_text" : "Learn More",
     "button_url" : "/specialty"
