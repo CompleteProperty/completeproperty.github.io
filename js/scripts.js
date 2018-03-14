@@ -335,7 +335,8 @@ $(document).ready(function() {
         });
         $('.slider-paging-controls').flexslider({
             animation: "slide",
-            directionNav: false
+            directionNav: false,
+            slideshowSpeed: 6000,
         });
         $('.slider-arrow-controls').flexslider({
             controlNav: false
@@ -348,7 +349,7 @@ $(document).ready(function() {
             animation: "slide",
             controlNav: "thumbnails",
             directionNav: true,
-            animationLoop: true
+            animationLoop: true,
         });
         $('.logo-carousel').flexslider({
             minItems: 1,
