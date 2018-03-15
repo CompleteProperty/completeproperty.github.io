@@ -336,7 +336,10 @@ $(document).ready(function() {
         $('.slider-paging-controls').flexslider({
             animation: "slide",
             directionNav: false,
-            slideshowSpeed: 6000,
+            slideshowSpeed: 8000,
+            slideshow: true,
+            animationDuration: 350,
+            pauseOnHover: true
         });
         $('.slider-arrow-controls').flexslider({
             controlNav: false
