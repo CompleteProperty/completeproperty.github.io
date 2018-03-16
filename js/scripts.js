@@ -334,9 +334,12 @@ $(document).ready(function() {
             }
         });
         $('.slider-paging-controls').flexslider({
+            slideshowSpeed: 1000
+        });
+        $('.slider-all-controls').flexslider({
             animation: "slide",
             directionNav: false,
-            slideshowSpeed: 8000,
+            slideshowSpeed: 9000,
             slideshow: true,
             animationDuration: 350,
             pauseOnHover: true
