@@ -15,6 +15,7 @@
         </div>
       </div>
 -->
+      <div class="row pb24">
       <div class="col-sm-12 text-center">
           <ul class="filters mb0">
           </ul>
@@ -25,9 +26,9 @@
         <div class="spinner"></div>
       </div>
     </div>
-    <div class="row masonry masonryFlyIn">
+    <div class="row masonry masonryFlyIn fadeIn">
       {% for item in site.projects %}
-      <div class="col-sm-3 masonry-item project" data-category="{{item.type}}">
+      <div class="col-md-4 col-sm-6 masonry-item project fadeIn" data-category="{{item.type}}">
         <div class="image-tile hover-tile text-center">
           {% assign img = item.images[0] %}
           <img alt="{{item.name}}" class="background-image" src="{{ img.image.src }}">
@@ -44,5 +45,5 @@
     </div>
 
   </div>
-
+    </div>
 </section>
