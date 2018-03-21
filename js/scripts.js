@@ -334,7 +334,8 @@ $(document).ready(function() {
             }
         });
         $('.slider-paging-controls').flexslider({
-            slideshowSpeed: 7000
+            slideshowSpeed: 7000,
+            directionNav: false
         });
         $('.slider-arrow-controls').flexslider({
             controlNav: false
@@ -346,7 +347,7 @@ $(document).ready(function() {
         $('.slider-thumb-controls').flexslider({
             animation: "slide",
             controlNav: "thumbnails",
-            directionNav: true,
+            directionNav: false,
             animationLoop: true,
         });
         $('.logo-carousel').flexslider({
