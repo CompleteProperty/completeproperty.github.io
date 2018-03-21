@@ -334,15 +334,7 @@ $(document).ready(function() {
             }
         });
         $('.slider-paging-controls').flexslider({
-            slideshowSpeed: 1000
-        });
-        $('.slider-all-controls').flexslider({
-            animation: "slide",
-            directionNav: false,
-            slideshowSpeed: 9000,
-            slideshow: true,
-            animationDuration: 350,
-            pauseOnHover: true
+            slideshowSpeed: 7000
         });
         $('.slider-arrow-controls').flexslider({
             controlNav: false
