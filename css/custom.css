@@ -136,3 +136,33 @@ h2.cust-heading {
 .active .tab-title a{
   color: #fff;
 }
+.flex-direction-nav a.flex-next {
+  right: 16px;
+}
+.flex-direction-nav a.flex-next:before,
+.flex-direction-nav a.flex-prev:before {
+  content: "\e649";
+  font-family: 'themify';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  font-size: 24px;
+  color: #fff;
+}
+.flex-direction-nav a.flex-prev {
+  left: 16px;
+}
+.flex-direction-nav a.flex-prev:before {
+  content: "\e64a";
+}
+.flex-direction-nav a {
+  opacity: 1;
+  text-shadow: none;
+  color: rgba(0, 0, 0, 0);
+  width: 24px;
+  height: 24px;
+  margin: -12px 0 0;
+}
