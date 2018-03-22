@@ -23,16 +23,18 @@
     </div>
     <div class="row masonry masonryFlyIn">
       {% for item in site.projects %}
-      <div class="col-md-4 col-sm-6 masonry-item project" data-category="{{item.type}}">
-        <div class="image-tile inner-title hover-reveal text-center">
-          <a href="{{item.url}}">
-            <img alt="{{item.name}}" src="{{item.image_url}}">
-            <div class="title">
-                <h5 class="uppercase mb0">{{item.name}}</h5>
-                <span>{{item.location}}</span>
-            </div>
-          </a>
+      <div class="col-sm-3 masonry-item project" data-category="{{item.type}}">
+        <div class="image-tile hover-tile text-center">
+          {% assign img = item.images[0] %}
+          <img alt="{{item.name}}" class="background-image" src="{{ img.image.src }}">
+          <div class="hover-state">
+            <a href="{{item.url}}">
+              <h5 class="uppercase bold mb8">{{item.name}}</h5>
+              <h6 class="uppercase">{{item.location}}</h6>
+            </a>
+          </div>
         </div>
+
       </div>
       {% endfor %}
     </div>
