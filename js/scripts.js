@@ -220,7 +220,6 @@ $(document).ready(function() {
 
         $(this).closest('.projects').find('.project').each(function() {
             var filters = $(this).attr('data-category');
-
             if (filters.indexOf(filter) == -1) {
                 $(this).addClass('inactive');
             } else {
@@ -1435,7 +1434,7 @@ var options = {
    },
    controlsSelector: '', // Selector for custom controls
    delay: 0, // Transition delay in ms
-   delayMode: 'progressive', // 'progressive' or 'alternate'
+   delayMode: 'alternate', // 'progressive' or 'alternate'
    easing: 'ease-out',
    filterOutCss: { // Filtering out animation
       opacity: 0,
