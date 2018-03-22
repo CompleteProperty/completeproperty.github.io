@@ -1128,7 +1128,7 @@ function masonryFlyIn() {
     $items.each(function() {
         var item = $(this);
         setTimeout(function() {
-            item.addClass('fadeIn');
+            item.addClass('fadeOut');
         }, time);
         time += 170;
     });
@@ -1445,7 +1445,7 @@ var options = {
       opacity: 0,
       transform: 'scale(1)'
    },
-   layout: 'sameSize', // See layouts
+   layout: 'sameWidth', // See layouts
    multifilterLogicalOperator: 'or',
    selector: '.filtr-container',
    setupControls: true // Should be false if controlsSelector is set

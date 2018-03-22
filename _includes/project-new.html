@@ -20,9 +20,9 @@
   <div class="row push-down">
     <!-- This is the set up of a basic gallery, your items must have the categories they belong to in a data-filter
     attribute, which starts from the value 1 and goes up from there -->
-    <div class="filtr-container">
+    <div class="row container filtr-container">
       {% for item in site.projects %}
-      <div class="col-md-3 filtr-item" data-filter="{{item.type}}" data-category="{{item.type}}">
+      <div class="col-xs-6 col-sm-4 col-md-3 filtr-item" data-filter="{{item.type}}" data-category="{{item.type}}">
         <div class="image-tile hover-tile text-center">
         {% assign img = item.images[0] %}
         <img class="img-responsive background-image" src="{{ img.image.src }}" alt="{{item.name}}">
