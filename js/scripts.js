@@ -1444,7 +1444,7 @@ var options = {
       opacity: 0,
       transform: 'scale(1)'
    },
-   layout: 'sameWidth', // See layouts
+   layout: 'packed', // See layouts
    multifilterLogicalOperator: 'or',
    selector: '.filtr-container',
    setupControls: true // Should be false if controlsSelector is set
