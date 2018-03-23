@@ -1434,7 +1434,7 @@ var options = {
    },
    controlsSelector: '', // Selector for custom controls
    delay: 0, // Transition delay in ms
-   delayMode: 'alternate', // 'progressive' or 'alternate'
+   delayMode: 'progressive', // 'progressive' or 'alternate'
    easing: 'ease-out',
    filterOutCss: { // Filtering out animation
       opacity: 0,
