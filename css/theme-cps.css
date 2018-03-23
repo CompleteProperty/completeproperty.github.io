@@ -418,9 +418,11 @@ p.lead {
   line-height: 28px;
   text-align: justify;
 }
+
 .sub {
   font-size: 12px;
 }
+
 @media all and (max-width: 767px) {
   p.lead {
     font-size: 13px;
