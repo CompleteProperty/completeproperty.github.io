@@ -416,6 +416,7 @@ p.lead {
   font-size: 16px;
   font-weight: 400;
   line-height: 28px;
+  text-align: justify;
 }
 .sub {
   font-size: 12px;
