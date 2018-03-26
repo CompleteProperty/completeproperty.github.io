@@ -1391,7 +1391,6 @@ $(document).ready(function(){
         loop: true,
         autoplay: true,
         autoplayTimeout:1500,
-        autoplayHoverPause:true,
       })
 });
 
