@@ -15,18 +15,16 @@
     <div class="container">
       <div class="row">
         <div class="col-md-8">
-          <section class="image-slider slider-all-controls controls-inside pt0 pb0 height-70">
+          <div class="image-slider slider-all-controls controls-inside pt0 pb0 height-70 profile-slider">
             <ul class="slides">
               {% for item in page.images %}
               <li class="">
-                <div class="background-image-holder">
                   {% assign img = page.images[0] %}
                   <img alt="image" class="background-image" src="{{ item.image.src }}">
-                </div>
               </li>
               {% endfor %}
             </ul>
-          </section>
+          </div>
         </div>
         <div class="col-md-4">
         <div class="custom-list">
