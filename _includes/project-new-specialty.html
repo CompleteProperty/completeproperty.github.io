@@ -1,0 +1,41 @@
+<section>
+<div class="container">
+  <!-- Filter Controls - Simple Mode -->
+  <div class="row">
+
+  <!-- Filter Controls - Multifilter Mode -->
+  <div class="col-sm-12 text-center">
+      <ul class="simplefilter">
+        <li class="fltr-controls active" data-category="specialty" data-filter="specialty">Specialty</li>
+
+      </ul>
+  </div>
+</div>
+
+
+
+  <div class="row push-down">
+    <!-- This is the set up of a basic gallery, your items must have the categories they belong to in a data-filter
+    attribute, which starts from the value 1 and goes up from there -->
+    <div class="row filtr-container">
+      {% for item in site.projects %}
+      <div class="col-sm-12 filtr-item" data-filter="{{item.type}}" data-category="{{item.type}}">
+        <div class="image-tile hover-tile text-center">
+        {% assign img = item.images[0] %}
+        <img class="img-responsive " src="{{ img.image.src }}" alt="{{item.name}}">
+        <div class="hover-state">
+          <a href="{{item.url}}">
+            <h5 class="uppercase bold mb8">{{item.name}}</h5>
+            <h6 class="uppercase">{{item.location}}</h6>
+          </a>
+        </div>
+      </div>
+
+  </div>
+  {% endfor %}
+  </div>
+
+
+  </div>
+</div>
+</section>
