@@ -167,3 +167,5 @@ h2.cust-heading {
   margin: -12px 0 0;
 }
 .profile-slider .slides li{min-height:500px !important; height: 50vh !important;}
+
+body{text-align: justify;}
