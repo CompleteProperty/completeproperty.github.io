@@ -4,11 +4,18 @@
   <div class="row">
 
   <!-- Filter Controls - Multifilter Mode -->
+  <script type="text/javascript">
+    // $(document).ready(function(){
+    //   var url = window.location.href;
+    //   var url_arr = url.split('/');
+    //   alert(url);
+    // });
+  </script>
   <div class="col-sm-12 text-center">
       <ul class="simplefilter">
-        <li class="fltr-controls active" data-category="exterior" >Exterior</li>
-        <li class="fltr-controls" data-category="interior" >Interior</li>
-        <li class="fltr-controls" data-category="specialty" >Specialty</li>
+        <li class="fltr-controls active" data-category="exterior" data-filter="exterior">Exterior</li>
+        <!-- <li class="fltr-controls" data-category="interior" data-filter="interiors">Interior</li> -->
+        <li class="fltr-controls" data-category="specialty" data-filter="specialty">Specialty</li>
 
       </ul>
   </div>
