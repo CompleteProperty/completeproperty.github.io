@@ -166,3 +166,4 @@ h2.cust-heading {
   height: 24px;
   margin: -12px 0 0;
 }
+.profile-slider .slides li{min-height:500px !important; height: 50vh !important;}
