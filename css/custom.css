@@ -1,3 +1,6 @@
+body{text-align: justify;}
+ul li{text-align: left;}
+ul.slides li{text-align: center;}
 .nav-bar {
   height: 85px;
   max-height: 85px;
@@ -167,5 +170,3 @@ h2.cust-heading {
   margin: -12px 0 0;
 }
 .profile-slider .slides li{min-height:500px !important; height: 50vh !important;}
-
-body{text-align: justify;}
