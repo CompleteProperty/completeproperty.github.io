@@ -1,15 +1,7 @@
 [
   {
-    "name" : "Hank Gatti",
-    "title" : "Chief Executive Officer",
-    "email" : "hgatti@completeproperty.com",
-    "image_url" : "/img/team/hank-gatti.jpg",
-    "about" : "Et harum quidem rerum facilis est et expedita distinctio.",
-    "linkedin_account" : ""
-  },
-  {
     "name" : "Michael Krueger",
-    "title" : "President",
+    "title" : "Chief Executive Officer",
     "email" : "mkrueger@completeproperty.com",
     "image_url" : "/img/team/michael-krueger.jpg",
     "about" : "Et harum quidem rerum facilis est et expedita distinctio.",
@@ -17,7 +9,7 @@
   },
   {
     "name" : "Matt Krueger",
-    "title" : "Vice President",
+    "title" : "President",
     "email" : "mjkrueger@completeproperty.com",
     "image_url" : "/img/team/matt-krueger.jpg",
     "about" : "Et harum quidem rerum facilis est et expedita distinctio. ",
@@ -33,7 +25,7 @@
   },
   {
     "name" : "Leta Hardy",
-    "title" : "Vice President - Business Development",
+    "title" : "Vice President of Business Development",
     "email" : "lhardy@completeproperty.com",
     "image_url" : "/img/team/leta-hardy.jpg",
     "about" : "Et harum quidem rerum facilis est et expedita distinctio.",
@@ -41,7 +33,7 @@
   },
   {
     "name" : "Denis Hudlett",
-    "title" : "Director of Purchasing",
+    "title" : "Vice President of Purchasing",
     "email" : "dhudlett@completeproperty.com",
     "image_url" : "/img/team/denis-hudlett.jpg",
     "about" : "Et harum quidem rerum facilis est et expedita distinctio.",
