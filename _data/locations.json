@@ -10,7 +10,7 @@
     "email" : "info@completeproperty.com",
     "hours" : "Monday to Friday 8:00 AM to 5:00 PM",
     "map_url" : "https://www.google.com/maps?q=28.034341,-82.639734",
-    "map_image_url" : "/img/map-tampa.png"
+    "map_image_url" : "/img/locations/tampa-bay.png"
   },
   {
     "name" : "South Florida Office",
@@ -23,7 +23,7 @@
     "email" : "info@completeproperty.com",
     "hours" : "Monday to Friday 8:00 AM to 5:00 PM",
     "map_url" : "https://www.google.com/maps?q=26.047893,-80.165015",
-    "map_image_url" : "/img/map-davie.png"
+    "map_image_url" : "/img/locations/south-florida.png"
   },
   {
     "name" : "North Florida Office",
@@ -36,7 +36,7 @@
     "email" : "info@completeproperty.com",
     "hours" : "Monday to Friday 8:00 AM to 5:00 PM",
     "map_url" : "https://www.google.com/maps?q=30.0746779,-81.4894354",
-    "map_image_url" : "/img/map-jacksonville.png"
+    "map_image_url" : "/img/locations/north-florida.png"
   },
   {
     "name" : "California Office",
@@ -49,6 +49,6 @@
     "email" : "info@completeproperty.com",
     "hours" : "Monday to Friday 8:00 AM to 5:00 PM",
     "map_url" : "https://www.google.com/maps?q=33.630540,-117.730282",
-    "map_image_url" : "/img/map-irvine.png"
+    "map_image_url" : "/img/locations/california.png"
   }
 ]
