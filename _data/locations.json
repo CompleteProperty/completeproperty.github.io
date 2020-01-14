@@ -26,16 +26,16 @@
     "map_image_url" : "/img/map-davie.png"
   },
   {
-    "name" : "Jacksonville Florida Office",
-    "address1" : "9556 Historic Kings Road",
-    "address2" : "Suite 204/205",
+    "name" : "North Florida Office",
+    "address1" : "108 Badger Park Drive. St Johns",
+    "address2" : "",
     "city" : "Jacksonville",
     "state" : "FL",
     "zip" : "32257",
     "phone" : "904-559-2183",
     "email" : "info@completeproperty.com",
     "hours" : "Monday to Friday 8:00 AM to 5:00 PM",
-    "map_url" : "https://www.google.com/maps?q=30.204627,-81.578503",
+    "map_url" : "https://www.google.com/maps?q=30.0746779,-81.4894354",
     "map_image_url" : "/img/map-jacksonville.png"
   },
   {
